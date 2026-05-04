@@ -31,12 +31,14 @@ Este projeto foi desenvolvido com foco em prática de lógica de programação, 
 
 ## 🔗 Acesso ao projeto
 
-- 🌐 Site: 
-- 💻 Código: 
+- 🌐 Site:https://tchelo-maker.github.io/marketplace-web/ 
+- 💻 Código:https://github.com/tchelo-maker/marketplace-web 
 
 ---
 
 ## 📸 Imagens do projeto
+
+<img width="1366" height="723" alt="Captura de Tela (8)" src="https://github.com/user-attachments/assets/cd989216-0a1b-4db8-aa13-b9b9c291dc70" />
 
 
 
