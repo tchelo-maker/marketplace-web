@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com foco em prática de lógica de programação, 
 
 ## 🔗 Acesso ao projeto
 
-- 🌐 Site:https://tchelo-maker.github.io/marketplace-web/ 
+- 🌐 Site: https://tchelo-maker.github.io/marketplace-web/ 
 - 💻 Código:https://github.com/tchelo-maker/marketplace-web 
 
 ---
