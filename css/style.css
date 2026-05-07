@@ -31,7 +31,7 @@ header{
     text-decoration: none;
 }
 
-nav a{
+ nav a{
     color:#fff;
     text-decoration:none;
     margin-left:25px;
@@ -72,12 +72,13 @@ nav a:hover{
     color:#000;
     font-weight:600;
     cursor:pointer;
-    transition:0.3s;
     border-radius: 5px;
 }
 
 .hero button:hover{
     background:#ddd;
+    transition:0.3s;
+    transform:translateY(-8px);
 }
 
 /* PRODUTOS */
@@ -136,6 +137,18 @@ nav a:hover{
    
 }
 
+#cart{
+    position:fixed;
+    top: 0;
+    
+    width: 300px;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    /*magica do desfoque*/
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
 /* CARRINHO */
 .cart{
     position:fixed;
@@ -149,6 +162,7 @@ nav a:hover{
     transform:translateX(100%);
     transition:0.4s;
     overflow:auto;
+    border-radius: 10px;
 }
 
 .cart.active{
@@ -157,6 +171,15 @@ nav a:hover{
 
 .cart h2{
     margin-bottom:20px;
+}
+
+#botao-fechar{
+    font-style: inherit;
+    font-size: x-large;
+    margin-left: 230px;
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    
 }
 
 .cart-item{
@@ -173,6 +196,12 @@ nav a:hover{
     border:none;
     margin-top:10px;
     cursor:pointer;
+    border-radius: 5px;
+}
+
+.aba-conteudo{
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /* FOOTER */
